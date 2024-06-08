@@ -3,18 +3,17 @@
 body{
     font-family: 'Lato', sans-serif;
     display: flow-root;
-    background-color: aliceblue;
     width: 50%;
     margin: auto;
 }
 
 header{
     font-weight: bold;
+    background-color: aliceblue;
 }
 
 .center{
     margin: auto;
-    margin-top: 40px;
     display: flex;
 }
 
@@ -28,16 +27,17 @@ header{
 }
 
 .box{
-    border: 2px solid;
+    border: 1px solid;
     padding: 25px;
     box-sizing: border-box;
     height: auto;
     width: 50%;
     float: left;
+    text-align: center;
 }
 
 .image{
-    width: 300px;
+    width: 250px;
     height: 100px;
 }
 
