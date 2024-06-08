@@ -27,18 +27,23 @@ header{
 }
 
 .box{
-    border: 1px solid;
-    padding: 25px;
-    box-sizing: border-box;
-    height: auto;
-    width: 50%;
-    float: left;
+    flex: 1 1 30%;
+    max-width: 30%;
+    margin: 10px;
     text-align: center;
 }
 
+.container{
+    position: relative;
+    top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .image{
-    width: 250px;
-    height: 100px;
+    width: 70%;
+    height: 80%;
 }
 
 footer{
