@@ -9,7 +9,7 @@ body{
 
 header{
     font-weight: bold;
-    background-color: aliceblue;
+    background-color: rgb(211, 241, 252);
 }
 
 .center{
@@ -22,7 +22,7 @@ header{
     margin-bottom: 40px;
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 50px;
     font-size: large;
 }
 
@@ -34,11 +34,14 @@ header{
 }
 
 .container{
-    position: relative;
-    top: 60px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 50px;
+
+    border: 2px solid;
+    border-radius: 10%;
+    border-color: rgb(211, 241, 252);
 }
 
 .image{
