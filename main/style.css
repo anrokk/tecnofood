@@ -30,6 +30,7 @@ header{
     padding: 0px;
     margin: 0px;
     overflow: hidden;
+    margin-left: 100px;
 }
 
 .other a{
@@ -52,6 +53,7 @@ header{
 h3, .text{
     margin-right: 500px;
     margin-left: 500px;
+    line-height: 1.5;
     color: rgb(82, 82, 82);
 }
 
@@ -88,6 +90,7 @@ h3, .text{
 }
 
 footer{
+    color: rgb(82, 82, 82);
     font-weight: bold;
     text-align: center;
     width: 100%;
