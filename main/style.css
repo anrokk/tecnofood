@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 
 body{
     margin: 0;
@@ -7,7 +7,7 @@ body{
 }
 
 body, html{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Manrope', sans-serif;
     display: flex;
     flex-direction: column;
 }
@@ -103,6 +103,7 @@ main{
     border: 1px solid rgb(118, 197, 221);
     border-radius: 20%;
     padding: 30px;
+    box-shadow: 5px 5px 5px rgb(118, 197, 221);
 }
 
 #Andrik {
