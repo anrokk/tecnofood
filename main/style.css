@@ -1,24 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 body{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
     display: flow-root;
-    width: 50%;
     margin: auto;
 }
 
 header{
     font-weight: bold;
-    background-color: rgb(211, 241, 252);
-    padding: 20px 0;
+    background-color: none;
+    padding: 20px;
 }
 
 .header-content{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: auto 0;
 }
 
 #logo{
@@ -27,21 +23,36 @@ header{
 }
 
 .other{
+    list-style-type: none;
     text-align: center;
-    word-spacing: 50px;
-    margin-top: 20px;
-    box-shadow: 1px 1px 5px gray;
-    padding: 20px;
+    background-color: white;
+    box-shadow: 5px 5px 5px rgb(118, 197, 221);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
 }
 
 .other a{
-    color: black;
+    color: rgb(82, 82, 82);
     text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
 }
 
 .other a:hover{
-    font-size: large;
-    text-decoration: underline;
+    color: rgb(82, 82, 82);
+    background-color: rgba(118, 197, 221, 0.295);
+}
+
+.other li{
+    float: left;
+}
+
+h3, .text{
+    margin-right: 500px;
+    margin-left: 500px;
+    color: rgb(82, 82, 82);
 }
 
 
@@ -49,23 +60,31 @@ header{
     flex: 1 1 30%;
     max-width: 30%;
     margin: 10px;
+    margin-top: 30px;
     text-align: center;
 }
 
+.box:hover{
+    background-color: rgba(118, 197, 221, 0.295);
+}
+
 .container{
+    margin-right: 500px;
+    margin-left: 500px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 50px;
+    padding: 10px;
 
     border: 2px solid;
     border-radius: 10%;
-    border-color: rgb(211, 241, 252);
+    border-color: rgb(118, 197, 221);
 }
 
+
 .image{
-    width: 70%;
-    height: 80%;
+    width: 50%;
+    height: 60%;
 }
 
 footer{
