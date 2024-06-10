@@ -53,8 +53,11 @@ header{
 h3, .text{
     margin-right: 500px;
     margin-left: 500px;
-    line-height: 1.5;
     color: rgb(82, 82, 82);
+}
+
+.text{
+    line-height: 1.5;
 }
 
 
