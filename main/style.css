@@ -134,6 +134,10 @@ a{
     text-decoration: none;
 }
 
+.map{
+    margin-left: 200px;
+}
+
 
 footer{
     color: rgb(82, 82, 82);
