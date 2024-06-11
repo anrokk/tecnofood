@@ -59,8 +59,8 @@ main{
 }
 
 #welcomeh3, .text{
-    margin-left: 500px;
-    margin-right: 500px;
+    margin-left: 200px;
+    margin-right: 200px;
     color: rgb(82, 82, 82);
 }
 
@@ -107,15 +107,15 @@ main{
 }
 
 #Andrik {
-    margin-left: 500px;
+    margin-left: 200px;
 }
 
 #Tehnik {
-    margin-left: 100px;
+    margin-left: 200px;
 }
 
 #Hooldus{
-    margin-left: 100px;
+    margin-left: 200px;
 }
 
 .kontakth3, .lisatekst{
