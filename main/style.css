@@ -60,8 +60,12 @@ main{
 
 #welcomeh3, .text{
     margin-left: 200px;
-    margin-right: 200px;
+    margin-right: 400px;
     color: rgb(82, 82, 82);
+}
+
+#welcomeh3{
+    font-size: x-large;
 }
 
 
@@ -106,20 +110,28 @@ main{
     box-shadow: 5px 5px 5px rgb(118, 197, 221);
 }
 
+.isik:hover {
+    background-color: rgba(118, 197, 221, 0.295);
+}
+
 #Andrik {
     margin-left: 200px;
 }
 
 #Tehnik {
-    margin-left: 200px;
+    margin-left: 100px;
 }
 
 #Hooldus{
-    margin-left: 200px;
+    margin-left: 100px;
 }
 
 .kontakth3, .lisatekst{
     color: rgb(82, 82, 82);
+}
+
+a{
+    text-decoration: none;
 }
 
 
