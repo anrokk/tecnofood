@@ -10,20 +10,21 @@ body, html{
     font-family: 'Manrope', sans-serif;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 
 .header-logo{
     width: 200px;
     height: auto;
-    padding: 20px;
+    padding: 0px;
     position: fixed;
 }
 
 .navbar{
     align-items: center;
     font-weight: bold;
-    background-color: none;
-    padding: 20px;
+    background-color: white;
+    padding: 0px;
     margin-left: 300px;
     top: 0;
     position: fixed;
@@ -60,7 +61,7 @@ main{
 
 #welcomeh3, .text{
     margin-left: 200px;
-    margin-right: 400px;
+    width: 50%;
     color: rgb(82, 82, 82);
 }
 
@@ -70,36 +71,27 @@ main{
 
 
 .container{
-    margin-right: 500px;
-    margin-left: 500px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
-    border: 2px solid;
-    border-radius: 10%;
-    border-color: rgb(118, 197, 221);
 }
 
 .box{
-    flex: 1 1 30%;
-    max-width: 30%;
-    margin: 10px;
-    margin-top: 30px;
-    text-align: center;
+    
 }
 
 .box:hover{
-    background-color: rgba(118, 197, 221, 0.295);
+    
 }
 
 
 .image{
-    width: 50%;
-    height: 40%;
+    width: 60%;
+    height: auto;
+    margin-left: 200px;
 }
 
 .kontakt-inimesed {
+    margin-left: 200px;
+    gap: 100px;
     display: flex;
 }
 
@@ -112,18 +104,6 @@ main{
 
 .isik:hover {
     background-color: rgba(118, 197, 221, 0.295);
-}
-
-#Andrik {
-    margin-left: 200px;
-}
-
-#Tehnik {
-    margin-left: 100px;
-}
-
-#Hooldus{
-    margin-left: 100px;
 }
 
 .kontakth3, .lisatekst{
@@ -145,8 +125,5 @@ footer{
     font-weight: bold;
     text-align: center;
     width: 100%;
-    position: fixed;
     bottom: 0;
-    left: 0;
-    right: 0;
 }
