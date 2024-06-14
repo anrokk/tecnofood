@@ -101,12 +101,21 @@ main{
 
 #welcomeh3, .text{
     margin-left: 200px;
-    width: 50%;
+    max-width: 50%;
     color: rgb(82, 82, 82);
 }
 
 #welcomeh3{
     font-size: x-large;
+}
+
+h4{
+    margin-left: 200px;
+    margin-top: 50px;
+    max-width: 50%;
+    color: rgb(82, 82, 82);
+    font-weight: bold;
+    font-size: large;
 }
 
 
@@ -132,6 +141,10 @@ main{
 .image{
     width: 150px;
     height: 70px;
+}
+
+.vaakumpakendaja_images{
+    width: 20%;
 }
 
 .kontakt-inimesed {
