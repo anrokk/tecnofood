@@ -158,6 +158,12 @@ h5{
 
 #vaakumpakendaja_text {
     line-height: 2;
+    border: 2px solid rgb(118, 197, 221);
+    box-shadow: rgb(118, 197, 221) 0px 5px 15px;
+    border-top-right-radius: 15%;
+    border-bottom-right-radius: 15%;
+    padding: 20px;
+    font-weight: bold;
 }
 
 .products{
@@ -167,7 +173,9 @@ h5{
 
 .card{
     border-radius: 20%;
-    max-width: 40%;
+    max-width: 100%;
+    min-width: 30%;
+    margin-bottom: 100px;
 }
 
 .kontakt-inimesed {
