@@ -73,9 +73,9 @@ body, html{
     background-color: white;
     border: 2px solid rgb(118, 197, 221);
     border-top: 0px;
-    max-width: 170px;
+    max-width: 167px;
     z-index: 1;
-  }
+}
   
 .dropdown-content a{
     float: none;
@@ -86,12 +86,22 @@ body, html{
  
 .dropdown-content a:hover {
     background-color: rgba(118, 197, 221, 0.295);
-    transition: all 0.3s ease-in; 
-    transform: translateY(-10px); 
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+#vaakumpakendaja:hover #dropdown-content2{
+    display: block;
+}
+
+#dropdown-content2{
+    display: block;
+}
+
+.dropdown_text{
+    font-size: 13px;
 }
 
 main{
