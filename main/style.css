@@ -240,6 +240,15 @@ a{
     margin-left: 200px;
 }
 
+#belspot {
+    margin-top: 200px;
+    margin-left: 0px;
+}
+
+#belspot_desc{
+    margin-left: 0px;
+}
+
 
 footer{
     color: rgb(82, 82, 82);
