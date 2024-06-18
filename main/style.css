@@ -205,6 +205,21 @@ p{
     margin-left: 350px;
 }
 
+::-webkit-scrollbar{
+    width: 10px;
+    overflow-y: h;
+}
+
+::-webkit-scrollbar-track{
+    background-color: rgba(118, 197, 221, 0.295);
+    border-radius: 32px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgba(118, 197, 221, 0.295);
+    border-radius: 32px;
+}
+
 .products{
     margin-top: 50px;
     margin-left: 200px;
