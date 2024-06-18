@@ -135,6 +135,10 @@ h5{
     font-weight: bold;
 }
 
+p{
+    color: rgb(82, 82, 82);
+}
+
 #speedy {
     color: rgb(82, 82, 82);
     margin-right: 300px;
@@ -194,6 +198,8 @@ h5{
     border: 2px solid rgb(118, 197, 221);
     box-shadow: rgb(118, 197, 221) 0px 5px 15px;
     max-width: 50%;
+    height: 300px;
+    overflow: auto;
     padding: 20px;
     font-weight: bold;
     margin-left: 350px;
