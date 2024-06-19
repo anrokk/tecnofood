@@ -229,9 +229,8 @@ p{
 }
 
 .kontakt-inimesed {
-    margin-left: 200px;
-    gap: 100px;
     display: flex;
+    justify-content: space-evenly;
 }
 
 .isik {
@@ -239,11 +238,11 @@ p{
     border-radius: 20%;
     padding: 30px;
     box-shadow: 5px 5px 5px rgb(118, 197, 221);
-    transition: 0.3s;
 }
 
 .isik:hover {
     background-color: rgba(118, 197, 221, 0.295);
+    transition: 0.3s ease-in-out;
 }
 
 .kontakth3, .lisatekst{
@@ -273,10 +272,6 @@ p{
 
 a{
     text-decoration: none;
-}
-
-.map{
-    margin-left: 200px;
 }
 
 #belspot {
