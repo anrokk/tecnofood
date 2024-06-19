@@ -116,6 +116,17 @@ main{
     color: rgb(82, 82, 82);
 }
 
+h2{
+    text-align: center;
+    font-size: x-large;
+    color: rgb(82, 82, 82);
+}
+
+#kirjeldus{
+    text-align: center;
+    font-size: large;
+}
+
 #welcomeh3{
     font-size: x-large;
 }
@@ -131,7 +142,7 @@ h4{
 
 h5{
     color: rgb(82, 82, 82);
-    font-size: large;
+    font-size: larger;
     font-weight: bold;
 }
 
@@ -240,6 +251,27 @@ p{
     color: rgb(82, 82, 82);
 }
 
+.masinad{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 200px;
+}
+
+.masin{
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid rgb(118, 197, 221);
+    box-shadow: rgba(118, 197, 221, 0.295) 0px 50px 100px -20px, rgba(118, 197, 221, 0.295) 0px 30px 60px -30px;
+    padding: 50px;
+    border-radius: 32px;
+    width: 200px;
+}
+
+.masin:hover{
+    background-color: rgba(118, 197, 221, 0.295);
+    transition: 0.3s ease-in-out;
+}
+
 a{
     text-decoration: none;
 }
@@ -256,7 +288,6 @@ a{
 #belspot_desc{
     margin-left: 0px;
 }
-
 
 footer{
     color: rgb(82, 82, 82);
