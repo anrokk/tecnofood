@@ -228,6 +228,10 @@ p{
     margin-bottom: 350px;
 }
 
+#beltop{
+    margin-top: 400px;
+}
+
 .kontakt-inimesed {
     display: flex;
     justify-content: space-evenly;
