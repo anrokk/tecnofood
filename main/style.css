@@ -247,8 +247,6 @@ p{
 .isik:hover {
     background-color: rgba(118, 197, 221, 0.295);
     transition: 0.3s ease-in-out;
-    transform: rotateY(360deg);
-    transition: 2s;
 }
 
 .kontakth3, .lisatekst{
