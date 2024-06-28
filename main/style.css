@@ -229,10 +229,6 @@ p{
     margin-bottom: 200px;
 }
 
-#beltop{
-    margin-top: 400px;
-}
-
 .kontakt-inimesed {
     display: flex;
     justify-content: space-evenly;
@@ -275,7 +271,7 @@ p{
     transition: 0.3s ease-in-out;
 }
 
-#lavakiletaja1, #lavakiletaja2, #termokambermasin1, #termokambermasin2 {
+#lavakiletaja1, #lavakiletaja2, #termokambermasin1, #termokambermasin2, #minifill, #bellift, #beltop, #belspot {
     margin-bottom: 400px;
 }
 
