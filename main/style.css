@@ -14,52 +14,46 @@ body, html{
     min-height: 100vh;
 }
 
-.header-logo{
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0 2px 4px rgb(55, 183, 195);
+    width: 100%;
+    position: fixed;
+}
+
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.header-logo {
     width: 200px;
     height: auto;
-    padding: 0px;
-    position: fixed;
+    padding: 10px;
 }
 
-.navbar{
+nav {
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-item {
+    font-size: 1.125rem;
+    color: rgb(82, 82, 82);
+    transition: color 0.3s;
+    margin-right: 20px;
     font-weight: bold;
-    background-color: white;
-    margin-left: 300px;
-    position: fixed;
-}
-
-.other{
-    list-style-type: none;
-    border: 2px solid rgb(55, 183, 195);
-    box-shadow: rgb(55, 183, 195) 0px 20px 30px -10px;
-    border-top: 0px;
-    padding: 0px;
-    margin: 0px;
-    overflow: hidden;
-}
-
-.other li{
-    float: left;
-}
-
-.other a{
-    color: rgb(82, 82, 82);
-    text-decoration: none;
-    padding: 15px;
-    display: block;
-    text-align: center;
-}
-
-.other a:hover{
-    background-color: rgba(118, 197, 221, 0.295);
-    color: rgb(82, 82, 82);
-    transition: all 0.3s;
 }
 
 .dropdown {
     overflow: hidden;
     float: left;
-  }
+}
   
 
 .dropdown .dropbtn {
