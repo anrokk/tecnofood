@@ -17,7 +17,6 @@ body, html{
 header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     background-color: white;
     box-shadow: 0 2px 4px rgb(55, 183, 195);
     width: 100%;
@@ -28,7 +27,6 @@ header {
 .logo-container {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
 }
 
 .header-logo {
@@ -38,16 +36,20 @@ header {
 }
 
 nav {
-    display: flex;
-    gap: 1rem;
+    display: inline-block;
+    margin-right: 20px;
 }
 
 .nav-item {
-    font-size: 1.125rem;
+    margin: 15px;
+    font-size: large;
+    font-weight: bold;
     color: rgb(82, 82, 82);
     transition: color 0.3s;
-    margin-right: 20px;
-    font-weight: bold;
+}
+
+.nav-item:hover{
+    color: rgb(55, 183, 195);
 }
 
 .dropdown {
@@ -281,7 +283,7 @@ a{
 
 footer{
     color: rgb(82, 82, 82);
-    background-color: rgba(118, 197, 221, 0.295);;
+    background-color: rgba(118, 197, 221, 0.295);
     font-weight: bold;
     text-align: center;
     width: 100%;
