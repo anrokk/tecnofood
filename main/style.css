@@ -288,6 +288,7 @@ footer{
     text-align: center;
     width: 100%;
     bottom: 0;
+    border-top: 2px solid rgb(55, 183, 195);
 }
 
 iframe {
