@@ -19,7 +19,7 @@ header {
     align-items: center;
     justify-content: space-around;
     background-color: white;
-    box-shadow: 0 2px 4px rgb(55, 183, 195);
+    box-shadow: 0 2px 4px rgb(89, 189, 230);
     width: 100%;
     position: fixed;
 }
@@ -38,66 +38,26 @@ header {
 
 nav {
     display: inline-block;
-    
 }
 
 .nav-item {
     margin: 15px;
     font-size: large;
     font-weight: bold;
-    color: rgb(82, 82, 82);
+    color: rgb(108, 108, 108);
     transition: color 0.3s;
 }
 
 .nav-item:hover{
-    color: rgb(55, 183, 195);
+    color: rgb(89, 189, 230);
 }
 
-.dropdown {
-    overflow: hidden;
-    float: left;
-}
-  
-
-.dropdown .dropbtn {
-    margin: 0;
-}
-  
-.dropdown-content {
+.dropdown-content{
     display: none;
     position: absolute;
     background-color: white;
-    border: 2px solid rgb(55, 183, 195);
-    border-top: 0px;
-    max-width: 167px;
+    box-shadow: 0px 8px 16px rgb(108, 108, 108);
     z-index: 1;
-}
-  
-.dropdown-content a{
-    float: none;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}  
- 
-.dropdown-content a:hover {
-    background-color: rgba(118, 197, 221, 0.295);
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-#vaakumpakendaja:hover #dropdown-content2{
-    display: block;
-}
-
-#dropdown-content2{
-    display: block;
-}
-
-.dropdown_text{
-    font-size: 13px;
 }
 
 main{
@@ -108,13 +68,13 @@ main{
 #welcomeh3, .text{
     margin-left: 200px;
     max-width: 50%;
-    color: rgb(82, 82, 82);
+    color: rgb(108, 108, 108);
 }
 
 h2{
     text-align: center;
     font-size: x-large;
-    color: rgb(82, 82, 82);
+    color: rgb(108, 108, 108);
 }
 
 #kirjeldus{
@@ -130,23 +90,23 @@ h4{
     margin-left: 200px;
     margin-top: 50px;
     max-width: 50%;
-    color: rgb(82, 82, 82);
+    color: rgb(108, 108, 108);
     font-weight: bold;
     font-size: x-large;
 }
 
 h5{
-    color: rgb(82, 82, 82);
+    color: rgb(108, 108, 108);
     font-size: larger;
     font-weight: bold;
 }
 
 p{
-    color: rgb(82, 82, 82);
+    color: rgb(108, 108, 108);
 }
 
 #speedy {
-    color: rgb(82, 82, 82);
+    color: rgb(108, 108, 108);
     margin-right: 300px;
 }
 
@@ -157,9 +117,9 @@ p{
 
 .box{
     display: inline-block;
-    border: 1px solid rgb(55, 183, 195);
+    border: 1px solid rgb(89, 189, 230);
     border-radius: 20%;
-    box-shadow: 5px 5px 5px rgb(55, 183, 195);
+    box-shadow: 5px 5px 5px rgb(89, 189, 230);
     padding: 20px;
     margin: 40px;
     transition: 0.3s;
@@ -192,8 +152,8 @@ p{
 
 #vaakumpakendaja_text {
     line-height: 2;
-    border: 2px solid rgb(55, 183, 195);
-    box-shadow: rgb(55, 183, 195) 0px 5px 15px;
+    border: 2px solid rgb(89, 189, 230);
+    box-shadow: rgb(89, 189, 230) 0px 5px 15px;
     max-width: 50%;
     padding: 20px;
     font-weight: bold;
@@ -201,8 +161,8 @@ p{
 
 #vaakumpakendaja_text2 {
     line-height: 2;
-    border: 2px solid rgb(55, 183, 195);
-    box-shadow: rgb(55, 183, 195) 0px 5px 15px;
+    border: 2px solid rgb(89, 189, 230);
+    box-shadow: rgb(89, 189, 230) 0px 5px 15px;
     max-width: 50%;
     height: 300px;
     overflow: auto;
@@ -229,19 +189,19 @@ p{
 }
 
 .isik {
-    border: 1px solid rgb(55, 183, 195);
+    border: 1px solid rgb(89, 189, 230);
     border-radius: 20%;
     padding: 30px;
-    box-shadow: 5px 5px 5px rgb(55, 183, 195);
+    box-shadow: 5px 5px 5px rgb(89, 189, 230);
 }
 
 .isik:hover {
-    background-color: rgba(118, 197, 221, 0.295);
+    background-color: #ceebf8;
     transition: 0.3s ease-in-out;
 }
 
 .kontakth3, .lisatekst{
-    color: rgb(82, 82, 82);
+    color: rgb(108, 108, 108);
 }
 
 .masinad{
@@ -253,15 +213,15 @@ p{
 .masin{
     text-decoration: none;
     text-align: center;
-    border: 2px solid rgb(55, 183, 195);
-    box-shadow: rgba(118, 197, 221, 0.295) 0px 50px 100px -20px, rgba(118, 197, 221, 0.295) 0px 30px 60px -30px;
+    border: 2px solid rgb(89, 189, 230);
+    box-shadow: #ceebf8 0px 50px 100px -20px, #ceebf8 0px 30px 60px -30px;
     padding: 50px;
     border-radius: 32px;
     width: 200px;
 }
 
 .masin:hover{
-    background-color: rgba(118, 197, 221, 0.295);
+    background-color: #ceebf8;
     transition: 0.3s ease-in-out;
 }
 
@@ -283,13 +243,15 @@ a{
 }
 
 footer{
-    color: rgb(82, 82, 82);
-    background-color: rgba(118, 197, 221, 0.295);
+    background-color: #ceebf8;
     font-weight: bold;
     text-align: center;
     width: 100%;
     bottom: 0;
-    border-top: 2px solid rgb(55, 183, 195);
+}
+
+.footer-text{
+    color: rgb(108, 108, 108)
 }
 
 iframe {
