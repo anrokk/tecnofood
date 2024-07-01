@@ -50,12 +50,17 @@ nav {
     font-size: large;
     font-weight: bold;
     color: rgb(108, 108, 108);
-    transition: color 0.3s;
+    text-underline-offset: var(--offset, 0.2em);
+    text-decoration: underline 0.1em white;
+    transition: 0.4s , 0.3s ease-in-out;
 }
 
-.nav-item:hover{
+.nav-item:hover, 
+.nav-item:focus {
     color: rgb(89, 189, 230);
-    text-decoration: underline;
+    text-decoration-color: rgb(89, 189, 230);
+    text-underline-offset: 1em;
+    --offset: 0.4em;
 }
 
 .dropdown-content{
