@@ -17,6 +17,7 @@ body, html{
 header {
     display: flex;
     align-items: center;
+    justify-content: space-around;
     background-color: white;
     box-shadow: 0 2px 4px rgb(55, 183, 195);
     width: 100%;
@@ -37,7 +38,7 @@ header {
 
 nav {
     display: inline-block;
-    margin-left: 25%;
+    
 }
 
 .nav-item {
