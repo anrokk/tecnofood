@@ -72,9 +72,13 @@ nav{
     display: none;
     position: absolute;
     background-color: white;
-    min-width: 160px;
+    min-width: 220px;
     box-shadow: 0 2px 4px rgb(89, 189, 230);
     border-radius: 20px;
+    z-index: 1;
+    opacity: 0; /* Initially hidden */
+    visibility: hidden; /* Prevents interaction when hidden */
+    transition: opacity 0.3s ease, visibility 0.3s ease;
 }
 
 .dropdown-content a {
@@ -91,6 +95,8 @@ nav{
 
 .dropdown:hover .dropdown-content {
     display: block;
+    opacity: 1; /* Fade in */
+    visibility: visible; /* Makes it interactable */
 }
 
 main{
@@ -223,7 +229,7 @@ p{
 
 .isik {
     border: 2px solid rgb(89, 189, 230);
-    border-radius: 20%;
+    border-radius: 40px;
     padding: 30px;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
 }
