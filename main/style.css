@@ -72,7 +72,7 @@ nav{
     display: none;
     position: absolute;
     background-color: white;
-    min-width: 220px;
+    min-width: 240px;
     box-shadow: 0 2px 4px rgb(89, 189, 230);
     border-radius: 20px;
     z-index: 1;
@@ -90,6 +90,7 @@ nav{
 
 .dropdown-content a:hover {
     color: rgb(89, 189, 230);
+    font-weight: bolder;
 }
 
 .dropdown:hover .dropdown-content {
