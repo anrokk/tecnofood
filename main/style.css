@@ -259,6 +259,29 @@ p{
     transition: 0.3s ease-in-out;
 }
 
+.pakkimisseadmed {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.pakkimisseade{
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid rgb(89, 189, 230);
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    margin: 50px;
+    padding: 50px;
+    border-radius: 40px;
+    width: 240px;
+}
+
+.pakkimisseade:hover{
+    background-color: #ceebf8;
+    transition: 0.3s ease-in-out;
+}
+
 #lavakiletaja1, #lavakiletaja2, #termokambermasin1, #termokambermasin2, #minifill, #bellift, #beltop, #belspot_voolavatele {
     margin-bottom: 400px;
 }
