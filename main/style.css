@@ -120,6 +120,13 @@ h2{
     font-size: x-large;
 }
 
+.teenused_tekst{
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+}
+
 h4{
     margin-left: 200px;
     margin-top: 50px;
