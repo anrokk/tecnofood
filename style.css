@@ -165,13 +165,12 @@ p{
     border-radius: 20%;
     padding: 20px;
     margin: 40px;
-    transition: 0.3s;
 }
 
 .box:hover{
-    transform: scale(1.1);
+    background-color: #ceebf8;
+    transition: 0.3s ease-in-out;
 }
-
 
 .image{
     width: 150px;
