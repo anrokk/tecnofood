@@ -114,6 +114,8 @@ h2{
 #kirjeldus{
     text-align: center;
     font-size: large;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 #welcomeh3{
