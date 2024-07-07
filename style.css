@@ -100,9 +100,8 @@ main{
 }
 
 #welcomeh3, .text{
-    margin-left: 200px;
-    max-width: 50%;
     color: rgb(108, 108, 108);
+    text-align: center;
 }
 
 h2{
@@ -127,9 +126,8 @@ h2{
 
 
 h4{
-    margin-left: 200px;
+    text-align: center;
     margin-top: 50px;
-    max-width: 50%;
     color: rgb(108, 108, 108);
     font-weight: bold;
     font-size: x-large;
