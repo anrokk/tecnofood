@@ -23,6 +23,7 @@ header {
     width: 100%;
     position: fixed;
     transition: 0.3s ease-in-out;
+    margin-bottom: 50px;
 }
 
 .logo-container {
@@ -158,7 +159,7 @@ p{
 .box{
     display: inline-block;
     border: 2px solid rgb(89, 189, 230);
-    box-shadow: 0 1px 4px rgb(89, 189, 230);
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
     border-radius: 20%;
     padding: 20px;
     margin: 40px;
