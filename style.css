@@ -100,16 +100,16 @@ main{
     margin-top: 120px;
 }
 
-#welcomeh3, .text{
-    color: rgb(108, 108, 108);
-    text-align: center;
-}
-
 h2{
     margin-top: 80px;
     text-align: center;
     font-size: x-large;
     color: rgb(108, 108, 108);
+    transition: 0.3s ease-in-out;
+}
+
+h2:hover {
+    color: rgb(89, 189, 230);
 }
 
 #kirjeldus{
@@ -119,8 +119,28 @@ h2{
     margin-right: 10%;
 }
 
-#welcomeh3{
+h3 {
+    color: rgb(108, 108, 108);
+    font-weight: bold;
     font-size: x-large;
+    text-align: center;
+}
+
+h4{
+    margin-top: 80px;
+    color: rgb(108, 108, 108);
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+
+h4:hover{
+    color: rgb(89, 189, 230);
+}
+
+.text {
+    text-align: center;
 }
 
 .teenused_tekst{
@@ -130,14 +150,6 @@ h2{
     margin-left: 10%;
 }
 
-
-h4{
-    text-align: center;
-    margin-top: 50px;
-    color: rgb(108, 108, 108);
-    font-weight: bold;
-    font-size: x-large;
-}
 
 h5{
     color: rgb(108, 108, 108);
@@ -217,8 +229,10 @@ p{
 }
 
 .products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-top: 50px;
-    margin-left: 200px;
 }
 
 .card{
@@ -232,6 +246,10 @@ p{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.kontakth3 {
+    font-size: large;
 }
 
 .isik {
