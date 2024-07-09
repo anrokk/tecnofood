@@ -139,6 +139,12 @@ h4:hover{
     color: rgb(89, 189, 230);
 }
 
+h5{
+    color: rgb(108, 108, 108);
+    font-size: larger;
+    font-weight: bold;
+}
+
 .text {
     text-align: center;
 }
@@ -148,13 +154,6 @@ h4:hover{
     text-align: center;
     margin-right: 10%;
     margin-left: 10%;
-}
-
-
-h5{
-    color: rgb(108, 108, 108);
-    font-size: larger;
-    font-weight: bold;
 }
 
 p{
@@ -193,27 +192,8 @@ p{
 }
 
 .vaakumpakendaja_images{
-    max-width: 300px;
-    max-height: 400px;
-    float: left;
-    margin-right: 50px;
-}
-
-.vaakumpakendaja_images2{
-    max-width: 300px;
-    max-height: 400px;
-    float: left;
-    margin-right: 50px;
-    margin-top: 100px;
-}
-
-#vaakumpakendaja_text {
-    line-height: 2;
-    border: 2px solid rgb(89, 189, 230);
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
-    max-width: 50%;
-    padding: 20px;
-    font-weight: bold;
+    width: 300;
+    height: 400px;
 }
 
 #vaakumpakendaja_text2 {
@@ -225,24 +205,18 @@ p{
     overflow: auto;
     padding: 20px;
     font-weight: bold;
-    margin-left: 350px;
 }
 
 .products{
     justify-content: center;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
     margin-top: 50px;
-    margin-left: 100px;
-    margin-right: 100px;
 }
 
 .card{
-    border-radius: 20%;
-    max-width: 100%;
-    min-width: 30%;
-    margin-bottom: 200px;
+    
 }
 
 .kontakt-inimesed {
