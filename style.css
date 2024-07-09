@@ -269,6 +269,10 @@ p{
     transition: 0.3s ease-in-out;
 }
 
+#kirjeldus {
+    text-align: center;
+}
+
 .pakkimisseadmed {
     display: flex;
     flex-wrap: wrap;
