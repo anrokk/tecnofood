@@ -108,11 +108,11 @@ h2{
     transition: 0.3s ease-in-out;
 }
 
-h2:hover {
-    color: rgb(89, 189, 230);
-}
 
-#kirjeldus{
+#kontakt{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    line-height: 0.5;
     text-align: center;
     font-size: large;
     margin-left: 10%;
@@ -135,9 +135,6 @@ h4{
     transition: 0.3s ease-in-out;
 }
 
-h4:hover{
-    color: rgb(89, 189, 230);
-}
 
 h5{
     color: rgb(108, 108, 108);
